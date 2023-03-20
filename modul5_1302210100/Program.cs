@@ -6,8 +6,14 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        penjumlahan<long> penjumlahan= new penjumlahan<long>();
-        penjumlahan.JumlahTigaAngka(13, 02, 11);
+        penjumlahan<long> penjumlahan = new penjumlahan<long>();
+        penjumlahan.JumlahTigaAngka(13, 02, 21);
 
+        SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
+        simpleDataBase.addData(13, DateTime.Now);
+        simpleDataBase.addData(02, DateTime.Now);
+        simpleDataBase.addData(21, DateTime.Now);
+        
+        simpleDataBase.PrintAllData();
     }
 }
