@@ -7,7 +7,7 @@ public class Program
     public static void Main(string[] args)
     {
         penjumlahan<long> penjumlahan= new penjumlahan<long>();
-        penjumlahan.JumlahTigaAngka(13, 02, 21);
+        penjumlahan.JumlahTigaAngka(13, 02, 11);
 
     }
 }
